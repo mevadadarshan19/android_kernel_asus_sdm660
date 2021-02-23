@@ -147,7 +147,7 @@ exports() {
 # Function to replace defconfig versioning
 setversioning() {
     # For staging branch
-    KERNELNAME="$LOCALVERSION-$DEVICE-$DATE-LA.UM.9.2.r1-02500-SDMxx0.0"
+    KERNELNAME="$ElectroPerf-4.4.258-LA.UM.9.2.r1-02500-SDMxx0.0"
     # Export our new localversion and zipnames
     export KERNELNAME
     export ZIPNAME="$KERNELNAME.zip"
